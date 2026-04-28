@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ByteBridge Computers | Sales, Repairs, IT Support</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home">
+        <span class="brand-icon">BB</span>
+        <span>BEST Computers</span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">Menu</button>
+      <nav class="site-nav" id="siteNav">
+        <a href="#services">Services</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Trusted local computer experts</p>
+          <h1>Fast computer sales, repairs, and business IT support.</h1>
+          <p class="hero-copy">
+            We help homes and companies choose the right hardware, fix technical problems quickly,
+            and keep systems running smoothly with affordable support plans.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Book a Service</a>
+            <a class="btn btn-secondary" href="#products">View Products</a>
+          </div>
+        </div>
+        <aside class="hero-card">
+          <h2>Why choose us?</h2>
+          <ul>
+            <li>Same-day diagnostics and repair</li>
+            <li>Certified technicians</li>
+            <li>Genuine replacement parts</li>
+            <li>Friendly support for all skill levels</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <h2>Our Services</h2>
+        <p class="section-copy">Simple solutions for everyday tech challenges.</p>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Computer & Laptop Sales</h3>
+            <p>Custom recommendations for students, gamers, and businesses with setup included.</p>
+          </article>
+          <article class="card">
+            <h3>Repairs & Upgrades</h3>
+            <p>Screen replacement, SSD upgrades, RAM expansion, virus removal, and full tune-ups.</p>
+          </article>
+          <article class="card">
+            <h3>Business IT Support</h3>
+            <p>Network setup, backup strategy, workstation maintenance, and monthly support contracts.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="products">
+      <div class="container">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+          <article class="product-card">
+            <h3>Office Pro Desktop</h3>
+            <p>Intel i5, 16GB RAM, 512GB SSD</p>
+            <strong>$699</strong>
+          </article>
+          <article class="product-card">
+            <h3>UltraBook Air 14"</h3>
+            <p>Intel i7, 16GB RAM, 1TB SSD</p>
+            <strong>$999</strong>
+          </article>
+          <article class="product-card">
+            <h3>Gaming Beast X</h3>
+            <p>Ryzen 7, RTX 4060, 32GB RAM</p>
+            <strong>$1,399</strong>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container split">
+        <div>
+          <h2>About ByteBridge</h2>
+          <p>
+            For over 8 years, BEST Computers has delivered reliable technology services to local families,
+            schools, and growing businesses. We focus on honest advice, clear pricing, and long-term support.
+          </p>
+        </div>
+        <div class="stat-boxes">
+          <div>
+            <strong>2,500+</strong>
+            <span>Devices Repaired</span>
+          </div>
+          <div>
+            <strong>98%</strong>
+            <span>Customer Satisfaction</span>
+          </div>
+          <div>
+            <strong>8 Years</strong>
+            <span>Local Experience</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <h2>Contact Us</h2>
+          <p>Need help with your device or business setup? Reach us today.</p>
+          <ul class="contact-list">
+            <li><strong>Phone:</strong> +2348039297101</li>
+            <li><strong>Email:</strong> support@bestcomputers.com</li>
+            <li><strong>Address:</strong> 8 maputo Street,wuse zone 3 Abuja</li>
+          </ul>
+        </div>
+        <form class="contact-form">
+          <label for="name">Name</label>
+          <input id="name" type="text" placeholder="Your name">
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="Your email">
+          <label for="message">Message</label>
+          <textarea id="message" rows="4" placeholder="How can we help?"></textarea>
+          <button type="button" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> BEST Computers. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
